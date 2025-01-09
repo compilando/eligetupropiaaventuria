@@ -124,8 +124,3 @@ Abre un Pull Request.
 
 📝 Licencia
 This project is licensed under the CC0-1.0 Universal (CC0 1.0) Public Domain Dedication. Feel free to use, modify, and distribute this project as you see fit!
-
-css
-Copiar código
-
-Este contenido es ideal para un archivo `README.md` que puedes usar directamente. Copia todo y pégalo en tu editor de texto favorito para guardarlo con ese nombre. 😊
