@@ -36,8 +36,8 @@ Genera libros interactivos al estilo "Elige tu propia Aventura" utilizando algor
 
 ### Clonar el Repositorio
 ```bash
-git clone https://github.com/tuusuario/elige-tu-propia-aventura-ml.git
-cd elige-tu-propia-aventura-ml
+git clone git clone https://github.com/compilando/eligetupropiaaventuria
+cd eligetupropiaaventuria
 
 
 Configuración del Frontend
@@ -108,7 +108,7 @@ pytest
 plaintext
 
 ```bash
-elige-tu-propia-aventura-ml/
+eligetupropiaaventuria/
 ├── frontend/         # Código del frontend (Next.js)
 ├── backend/          # Código del backend (Python)
 ├── docker-compose.yml
@@ -123,7 +123,7 @@ Haz push a la rama: git push origin mi-feature.
 Abre un Pull Request.
 
 📝 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+This project is licensed under the CC0-1.0 Universal (CC0 1.0) Public Domain Dedication. Feel free to use, modify, and distribute this project as you see fit!
 
 css
 Copiar código
