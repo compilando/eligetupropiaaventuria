@@ -1,0 +1,3 @@
+### Obtener el estado actual de una historia
+### @local
+GET {{base_url}}/current?story_id={{story_id}}

@@ -1,0 +1,27 @@
+parameters:
+  - in: body
+    name: body
+    required: true
+    schema:
+      type: object
+      properties:
+        style:
+          type: string
+          enum: ["YEOLDE", "FUTURISTIC"]
+          description: The style of the image.
+        inspiration:
+          type: string
+          description: The description that inspires the image.
+responses:
+  200:
+    description: URL of the generated image.
+    schema:
+      type: object
+      properties:
+        url:
+          type: string
+          description: Unique URL of the generated image.
+  400:
+    description: Error in the provided parameters.
+  500:
+    description: Error generating the image.

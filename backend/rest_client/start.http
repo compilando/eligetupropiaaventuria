@@ -1,0 +1,7 @@
+### Iniciar una nueva historia
+POST http://localhost:5000/start
+Content-Type: application/json
+
+{
+  "theme": "mystery_youth"
+}

@@ -1,0 +1,22 @@
+parameters:
+  - in: query
+    name: story_id
+    type: integer
+    required: true
+    description: ID of the story to get its current state.
+responses:
+  200:
+    description: Current state of the story.
+    schema:
+      type: object
+      properties:
+        history_so_far:
+          type: string
+          description: Complete story generated so far.
+        choices:
+          type: array
+          items:
+            type: string
+          description: Choices made by the user so far.
+  404:
+    description: Story not found.

@@ -1,0 +1,44 @@
+# Ignorar dependencias locales y entornos virtuales
+gradio
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+
+# Archivos de configuración específicos de tu editor/IDE
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+
+# Archivos y carpetas de control de versiones
+.git
+.gitignore
+*.gitkeep
+
+# Archivos de logs y temporal
+*.log
+*.tmp
+*.bak
+*.backup
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de caché
+.cache
+*.egg-info
+
+# Carpeta de compilación o instalación
+build/
+dist/
+
+# Archivos específicos de Docker Compose
+docker-compose.override.yml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  app:
+    environment:
+      FLASK_ENV: development
+      GOOGLE_APPLICATION_CREDENTIALS: ./gcp_credentials.json
+      GCP_PROJECT: your-gcp-project-id
+      GCP_LOCATION:  europe-southwest1
+      MODEL_NAME: gemini-1.5-flash
+    volumes:
+      - .:/app
+    command: flask run --host=0.0.0.0 --reload --debugger

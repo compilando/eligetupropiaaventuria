@@ -1,0 +1,8 @@
+### Continuar la historia según la elección del usuario
+POST {{base_url}}/next
+Content-Type: application/json
+
+{
+  "story_id": {{story_id}},
+  "choice_id": "1"
+}

@@ -1,0 +1,57 @@
+{
+  "home": {
+    "title": "Start Your Adventure!",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "themeLabel": "Choose a Theme",
+    "fontLabel": "Choose a Font",
+    "textSizeLabel": "Choose Text Size",
+    "pageLengthLabel": "Length ({chars} chars):",
+    "startButton": "Start Adventure!",
+    "continuePrompt": "You have an ongoing adventure. Do you want to continue?",
+    "continueButton": "Continue Adventure"
+  },
+  "fonts": {
+    "monospace": "Monospace (Terminal)",
+    "serif": "Serif (Kindle)",
+    "sansSerif": "Sans-serif (Modern)",
+    "courier": "Courier (Typing)"
+  },
+  "textSizes": {
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+  },
+  "themes": {
+    "mystery": "Mystery",
+    "fantasy": "Fantasy",
+    "sciFi": "Science Fiction",
+    "horror": "Horror",
+    "romance": "Romance",
+    "adventure": "Adventure",
+    "thriller": "Thriller",
+    "historicalFiction": "Historical Fiction",
+    "comedy": "Comedy",
+    "drama": "Drama",
+    "western": "Western",
+    "superhero": "Superheroes",
+    "dystopian": "Dystopia",
+    "cyberpunk": "Cyberpunk",
+    "steampunk": "Steampunk"
+  },
+  "error": {
+    "startStory": "Error starting the story",
+    "advance": "Error advancing the story",
+    "loading": "Error loading the story"
+  },
+  "adventure": {
+    "page": "Page",
+    "loading": "Generating your adventure...",
+    "loadingNext": "Expanding your adventure...",
+    "backToHome": "Back to Home",
+    "lastChoice": "Your choice was",
+    "history": "Your story so far",
+    "history.show": "Show history",
+    "history.hide": "Hide history"
+  }
+}

@@ -1,0 +1,32 @@
+parameters:
+  - in: body
+    name: body
+    required: true
+    schema:
+      type: object
+      properties:
+        theme:
+          type: string
+          description: The theme of the story. Example: mystery_youth
+responses:
+  200:
+    description: Story successfully started.
+    schema:
+      type: object
+      properties:
+        locale:
+          type: string
+          description: The locale for the story
+        story_id:
+          type: integer
+          description: Unique ID of the story.
+        fragment:
+          type: string
+          description: First fragment of the story.
+        options:
+          type: array
+          items:
+            type: string
+          description: Options for continuing the story.
+  400:
+    description: Error in the provided data.

@@ -1,0 +1,5 @@
+**IMPORTANT: Text Markup:**
+   - Where you create a proper name, wrap it with <character>...</character> tags. The tags should replace "..." with the name you generate.
+   - Where you create a location, wrap it with <location>...</location> tags. The tags should replace "..." with the location you generate.
+   - Where you create a object name, wrap it with <object>...</object> tags. The tags should replace "..." with the object you generate.
+   - Highlight key moments or important decisions wrapping it with `<danger>...</danger>`. The tags should replace "..." with the appropiate text.

@@ -1,0 +1,8 @@
+### Generar una imagen
+POST http://localhost:5000/generate-image
+Content-Type: application/json
+
+{
+  "inspiration": "Car, mustang, movie, person, poster, car cover, person, in the style of alessandro gottardo, gold and cyan, gerald harvey jones, reflections, highly detailed illustrations, industrial urban scenes",
+  "style": "YEOLDE"
+}

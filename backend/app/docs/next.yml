@@ -1,0 +1,34 @@
+parameters:
+  - in: body
+    name: body
+    required: true
+    schema:
+      type: object
+      properties:
+        story_id:
+          type: integer
+          description: ID of the story to continue.
+        choice_id:
+          type: string
+          description: Index of the option chosen by the user.
+responses:
+  200:
+    description: Continuation of the story.
+    schema:
+      type: object
+      properties:
+        locale:
+          type: string
+          description: The locale for the story
+        fragment:
+          type: string
+          description: New fragment of the story that continues based on the user's choice.
+        options:
+          type: array
+          items:
+            type: string
+          description: New options for continuing the story.
+  404:
+    description: Story not found.
+  400:
+    description: Invalid choice.
